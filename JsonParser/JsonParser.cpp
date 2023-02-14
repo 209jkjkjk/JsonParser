@@ -18,10 +18,10 @@ std::ifstream JsonParser::loadFile(const std::string& filepath) {
 
 std::string JsonParser::formatToString(std::ifstream& ifs) {
     // 判断文件大小，以为优化做判断
-    ifs.seekg(0, std::ios::end);
-    unsigned len = ifs.tellg();
-    ifs.seekg(0, std::ios::beg);
-    std::cout << "文件长度=" << len << std::endl;
+    //ifs.seekg(0, std::ios::end);
+    //unsigned len = ifs.tellg();
+    //ifs.seekg(0, std::ios::beg);
+    //std::cout << "文件长度=" << len << std::endl;
 
     // 读取文件到字符串
     std::stringstream buffer;

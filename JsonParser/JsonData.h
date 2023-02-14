@@ -3,6 +3,7 @@
 #include <map>
 #include <vector>
 #include <sstream>
+#include <iostream>
 enum JsonDataType {
 	object,
 	array,
